@@ -1,9 +1,3 @@
-@font-face {
-  font-family: "Gentium";
-  src: url("/font/GentiumPlus-Regular.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-}
 main {
   background-color: darkolivegreen;
 }
