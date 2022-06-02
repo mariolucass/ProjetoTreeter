@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "Gentium";
+  src: url("/font/GentiumPlus-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+main {
+  background-color: darkolivegreen;
+}
+body {
+  font-family: "Gentium", sans-serif;
+  background-color: dimgrey;
+}
+header {
+  background-color: black;
+}
+.cabecalho {
+  font-family: "Gentium", sans-serif;
+}
+
+.logomark {
+  width: 95vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: white;
+  font-size: 20px;
+  padding: 2px;
+  font-weight: bold;
+  opacity: 95%;
+}
+
+.quotes {
+  background-color: darkgreen;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 5px;
+  padding-left: 5px;
+  opacity: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+}
+
+.imagemprin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  padding: 20px;
+  opacity: 75%;
+}
+
+.logofooter {
+  width: 95vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+  color: white;
+  font-size: 20px;
+  padding: 2px;
+  font-weight: bold;
+}
+
+.rodape {
+  background-color: black;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.menu ul li {
+  list-style-type: none;
+  padding-right: 14px;
+}
+
+.register a {
+  display: flex;
+  justify-content: right;
+}
+
+.search {
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+}
