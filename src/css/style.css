@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
 main {
   background-color: darkolivegreen;
 }
 body {
-  font-family: "Gentium", sans-serif;
+  font-family: Gentium Plus, sans-serif;
   background-color: dimgrey;
 }
 header {
@@ -13,6 +15,7 @@ header {
 }
 
 .logomark {
+  font-family: Gentium Plus, sans-serif;
   width: 95vw;
   display: flex;
   justify-content: flex-start;
@@ -63,6 +66,7 @@ header {
 }
 
 .menu ul {
+  font-family: Gentium Plus, sans-serif;
   display: flex;
   justify-content: center;
   gap: 30px;
