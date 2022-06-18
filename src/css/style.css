@@ -1,45 +1,118 @@
 @import url("https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 main {
-  background-color: darkolivegreen;
+  background-color: #1d4c4f;
+  border-radius: 12px;
 }
 body {
   font-family: Gentium Plus, sans-serif;
-  background-color: dimgrey;
+  background-color: #7be495;
 }
 header {
-  background-color: black;
+  background-color: #1d4c4f;
 }
-.cabecalho {
-  font-family: "Gentium", sans-serif;
+footer {
+  margin-top: 32px;
 }
 
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+
+/* Cabeçalho e menu navegação */
+.cabecalho {
+  font-family: "Gentium", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0px 0px 15px 15px;
+  padding-bottom: 6px;
+}
+
+.logoimg {
+  width: 100px;
+  height: 100px;
+}
 .logomark {
+  min-width: 275px;
+  background-color: #12b886;
   font-family: Gentium Plus, sans-serif;
-  width: 95vw;
   display: flex;
   justify-content: flex-start;
-  align-items: flex-start;
+  margin-left: 5px;
+  align-items: center;
   color: white;
   font-size: 20px;
   padding: 2px;
   font-weight: bold;
   opacity: 95%;
+  border-radius: 2px 0px 12px 12px;
+}
+.logomark h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 0px;
 }
 
-.quotes {
-  background-color: darkgreen;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-right: 5px;
-  padding-left: 5px;
-  opacity: 95%;
+.menu {
+  height: 50px;
+  width: 900px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #12b886;
+  border-radius: 0px 0px 0px 20px;
+}
+.menu ul {
+  width: 100%;
+  font-family: Gentium Plus, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 50px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.menu ul li {
+  list-style-type: none;
+}
+
+.searchq {
+  background-color: #12b886;
   display: flex;
   justify-content: center;
+  align-items: center;
+  border-radius: 20px 20px 20px 20px;
+  height: 50px;
+  width: 270px;
+}
+/*  */
+
+/* Frases */
+.quote {
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+}
+.quotes {
+  background-color: #205072;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 0 auto;
+  opacity: 75%;
+  display: flex;
   align-items: center;
   color: whitesmoke;
 }
 
+/*  */
+
+/* Conteúdo Principal */
 .imagemprin {
   display: flex;
   justify-content: center;
@@ -49,45 +122,24 @@ header {
   opacity: 75%;
 }
 
+/* Rodapé */
 .logofooter {
-  width: 95vw;
+  margin-top: 15px;
+  width: 100vw;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   gap: 15px;
   color: white;
-  font-size: 20px;
   padding: 2px;
   font-weight: bold;
 }
-
+.logofooter h1 {
+  font-size: 50px;
+}
 .rodape {
-  background-color: black;
+  background-color: #1d4c4f;
+  border-radius: 12px 12px 0px 0px;
 }
 
-.menu ul {
-  font-family: Gentium Plus, sans-serif;
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  padding: 10px;
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.menu ul li {
-  list-style-type: none;
-  padding-right: 14px;
-}
-
-.register a {
-  display: flex;
-  justify-content: right;
-}
-
-.search {
-  display: flex;
-  justify-content: right;
-  align-items: flex-end;
-}
+/*  */
