@@ -48,6 +48,7 @@ footer {
   font-weight: bold;
   opacity: 95%;
   border-radius: 2px 0px 12px 12px;
+  text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
 }
 .logomark h1 {
   font-size: 50px;
@@ -79,6 +80,7 @@ footer {
 }
 
 .menu ul li {
+  text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
   list-style-type: none;
 }
 
@@ -111,6 +113,7 @@ footer {
   display: flex;
   align-items: center;
   color: whitesmoke;
+  text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
 }
 
 /*  */
@@ -136,6 +139,7 @@ footer {
   color: white;
   padding: 2px;
   font-weight: bold;
+  text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
 }
 .logofooter h1 {
   font-size: 50px;
