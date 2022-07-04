@@ -10,6 +10,7 @@ section {
 body {
   font-family: Gentium Plus, sans-serif;
   background-color: #7be495;
+  max-width: 3256px;
 }
 header {
   font-family: Gentium Plus, sans-serif;
@@ -174,7 +175,19 @@ footer {
   border-bottom: 5px solid #12b886;
   border-radius: 15px;
 }
-
+.imagemprin {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  height: 800px;
+  margin-bottom: 10px;
+}
+.imagemprin img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
 /* Outras Arvores */
 .catalogprin {
   border-top: 5px solid #12b886;
@@ -197,7 +210,7 @@ footer {
 }
 .catalog {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 50px;
 }
 
@@ -207,12 +220,11 @@ footer {
   justify-content: space-around;
   align-items: center;
   width: 350px;
-  height: 500px;
-  background-color: #0d1321;
+  height: 400px;
+  background-color: #30603a;
   border-radius: 15px;
   text-align: center;
   align-content: flex-start;
-  border: #205072 2px solid;
 }
 .othertrees img {
   width: 90%;
@@ -223,12 +235,18 @@ footer {
   border: white 1px solid;
   transition: 0.5s;
 }
+.textot {
+  display: flex;
+  text-align: center;
+  justify-content: start;
+  flex-wrap: wrap;
+}
 
 .othertrees h2 {
-  margin-top: 0px;
-  font-size: 20px;
+  margin-top: 5px;
+  font-size: 18px;
   font-weight: 600;
-  color: #12b886;
+  color: white;
   text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
   cursor: pointer;
 }
@@ -268,41 +286,32 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 275px;
+  width: 354px;
   height: 275px;
-  margin: 20px 10px 10px 10px;
-  border-radius: 10px;
-  border-bottom: #12b886 2px solid;
-  border-right: #12b886 2px solid;
-  border-left: #12b886 2px solid;
+  margin-bottom: 2px;
+  border-radius: 20px;
 }
 #imgott1 {
   background-image: url(/src/img/arvore1.webp);
-  background-position: center;
+  background-position: bottom;
 }
 #imgott2 {
   background-image: url(/src/img/arvore2.webp);
-  background-position: center;
+  background-position: top;
 }
 #imgott3 {
   background-image: url(/src/img/arvore3.webp);
-  background-position: center;
+  background-position: top;
 }
-.textot {
-  display: flex;
-  justify-content: center;
-  min-width: 100px;
-  min-height: 100px;
-  flex-wrap: wrap;
+#imgott4 {
+  background-image: url(/src/img/arvore4.webp);
+  background-position: bottom;
 }
-.textot p {
-  width: 300px;
-  height: 79px;
-}
+
 /* Rodapé */
 .logofooter {
   margin-top: 15px;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
