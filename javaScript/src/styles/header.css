@@ -1,0 +1,108 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 6px;
+  width: 95%;
+  margin: 0 auto;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.logoimg {
+  width: 5rem;
+  height: 5rem;
+}
+
+.header__logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 275px;
+  margin-left: 5px;
+  font-size: 1rem;
+  padding: 2px;
+  font-weight: bold;
+  opacity: 95%;
+  cursor: pointer;
+  border-radius: 2px 0px 12px 12px;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  text-shadow: var(--black-color) 2px 2px 2px;
+}
+.header__logo h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.header__logo h1:hover {
+  transition: 0.5s;
+  color: #1d4c4f;
+  text-shadow: var(--black-color) 2px 2px 2px;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  left: 10;
+  border-radius: 0px 0px 20px 20px;
+  background-color: var(--primary-color);
+  border: #1d4c4f 2px solid;
+}
+.header__menu ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem;
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--white-color);
+}
+
+.header__menu ul li {
+  list-style-type: none;
+  cursor: pointer;
+  text-shadow: var(--black-color) 1px 1px 1px;
+}
+.header__menu ul li:hover {
+  color: #1d4c4f;
+  transition: 0.5s;
+  text-shadow: var(--black-color) 1px 1px 1px;
+}
+.header__menu ul li a {
+  text-decoration: none;
+  color: var(--white-color);
+}
+.header__menu ul li a:hover {
+  color: #1d4c4f;
+  transition: 0.5s;
+}
+
+.header__search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 3rem;
+  border-radius: 20px 20px 20px 20px;
+  background-color: var(--primary-color);
+}
+.header__search input {
+  padding-left: 7px;
+  margin: 10px;
+  cursor: text;
+  outline: none;
+  border-radius: 5px;
+  border: var(--black-color) 1px;
+}
+.header__search input:focus {
+  outline: 1px solid #1d4c4f;
+}
+
+#header__search--button {
+  width: 32px;
+  height: 32px;
+  border-radius: 1rem;
+  background: var(--black-color);
+  border: none;
+}

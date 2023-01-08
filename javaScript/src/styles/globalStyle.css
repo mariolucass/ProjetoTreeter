@@ -1,0 +1,42 @@
+@import url("./header.css");
+@import url("./button.css");
+
+:root {
+  --primary-color: #12b886;
+  --section-color: #1d4c4f;
+  --terciary-color: #7be495;
+  --black-color: #0d1321;
+  --white-color: aliceblue;
+}
+
+body {
+  font-family: Gentium Plus, sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background-color: #7be495;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+section {
+  background-color: var(--section-color);
+}
+
+header {
+  border-bottom: 5px solid var(--primary-color);
+  background-color: var(--section-color);
+}
+
+footer {
+  border-top: 5px solid var(--primary-color);
+}
+
+.container {
+  max-width: 85%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
