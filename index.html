@@ -4,68 +4,75 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Treeter</title>
-    <link rel="stylesheet" href="./src/css/reset.css" />
-    <link rel="stylesheet" href="./src/css/style.css" />
-    <!-- <script src="./src/js/prin.js" defer></script> -->
-    <script src="./src/js/sec.js" defer></script>
-    <script src="./src/js/script.js" defer></script>
+    <link rel="stylesheet" href="/src/styles/reset.css" />
+    <link rel="stylesheet" href="/src/styles/index.css" />
+
+    <script src="/src/scripts/prin.js" defer></script>
+    <script src="/src/scripts/sec.js" defer></script>
+    <script src="/src/scripts/index.js" defer></script>
+
+    <title>Treeter - HomePage</title>
   </head>
   <body>
-    <header class="cabecalho">
-      <div class="logomark">
+    <header class="header">
+      <div class="header__logo">
         <img class="logoimg" src="./src/img/logo.png" alt="Tree" />
         <h1>Treeter</h1>
       </div>
-      <nav class="menu">
+      <nav class="header__menu">
         <ul>
           <li>
-            <a href="https://www.w3schools.com" target="_blank">Plant a tree</a>
+            <a href="/src/pages/PlantTree/">Plant a tree</a>
           </li>
           <li>
-            <a href="https://www.w3schools.com" target="_blank">Metrics</a>
+            <a href="/src/pages/Metrics/index.html">Metrics</a>
           </li>
-          <li><a href="https://www.w3schools.com" target="_blank">Learn</a></li>
           <li>
-            <a href="https://www.w3schools.com" target="_blank">About us</a>
+            <a href="/src/pages/Learn/index.html">Learn</a>
           </li>
-          <li class="searchq">
-            <form>
-              <input type="search" placeholder="Search" />
-            </form>
+          <li>
+            <a href="/src/pages/About Us/index.html">About us</a>
           </li>
         </ul>
+
+        <form class="header__search">
+          <input type="search" placeholder="Search" />
+          <!-- <button id="header__search--button"></button> -->
+        </form>
       </nav>
     </header>
+
     <main class="container">
       <section class="secprin">
-        <ul class="sectPrin">
-          <li></li>
+        <ul class="secprin__imglist">
+          <li><img src="/src/img/prin/image-1.jpg" alt="" /></li>
         </ul>
-        <div class="quotes">
-          <h1 class="quote">
-            <em>
-              "Trees are poems that the earth writes upon the sky." ― Kahlil
-              Gebran
-            </em>
-          </h1>
-        </div>
-        <div class="sectext"></div>
+        <ul class="secprin__quotelist">
+          <li>
+            <h1>
+              <em
+                >"Trees are poems that the earth writes upon the sky." ― Kahlil
+                Gebran</em
+              >
+            </h1>
+          </li>
+        </ul>
       </section>
-      <section class="catalogprin">
-        <div class="catalogtext">
+
+      <section class="secseg">
+        <div class="secseg__divtitle">
           <h2>Trees that you might be interested in...</h2>
         </div>
-        <ul class="sectSec">
-          <li></li>
-        </ul>
+
+        <ul class="secseg__list"></ul>
       </section>
+
+      <footer class="footer">
+        <div class="footer__logo">
+          <img class="logoimg" src="./src/img/logo.png" alt="Tree" />
+          <h1>Treeter</h1>
+        </div>
+      </footer>
     </main>
   </body>
-  <footer class="rodape">
-    <div class="logofooter">
-      <img class="logoimg" src="./src/img/logo.png" alt="Tree" />
-      <h1>Treeter</h1>
-    </div>
-  </footer>
 </html>
