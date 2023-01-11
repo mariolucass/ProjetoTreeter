@@ -11,9 +11,23 @@
 
 body {
   font-family: Gentium Plus, sans-serif;
-  width: 100vw;
-  height: 100vh;
+  width: 98vw;
+  height: 98vh;
   background-color: #7be495;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: transparent;
+  background-color: #1d4c4f;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
 }
 
 main {

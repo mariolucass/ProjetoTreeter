@@ -60,11 +60,11 @@ listCards(imgsSec, secaoSecundaria);
 
 const inputButton = document.getElementById("header__search--button");
 
-inputButton.addEventListener("click", (event) => {
-  event.preventDefault();
-  let inputSearch = document.querySelector(".header__search input");
-  console.log(inputSearch);
-  let value = inputSearch.value;
+// inputButton.addEventListener("click", (event) => {
+//   event.preventDefault();
+//   let inputSearch = document.querySelector(".header__search input");
+//   console.log(inputSearch);
+//   let value = inputSearch.value;
 
-  console.log(value);
-});
+//   console.log(value);
+// });
